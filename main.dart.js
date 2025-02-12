@@ -28194,7 +28194,7 @@ a23(a){return A.aJk(a)},
 aJk(a){var s=0,r=A.C(t.NI),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$a23=A.y(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:f=""+a
-e="http://api.careinplace.net"+("/provider/"+f+"/files")
+e="https://api.careinplace.net"+("/provider/"+f+"/files")
 d=t.N
 c=A.aj(["Content-Type","application/json"],d,d)
 p=4
@@ -28238,7 +28238,7 @@ while(true)switch(s){case 0:k=b.a
 j=J.bY(k)
 i=j.gU(k).c
 i.toString
-p=A.aLu("POST",A.c1("http://api.careinplace.net/documents/upload",0,null))
+p=A.aLu("POST",A.c1("https://api.careinplace.net/documents/upload",0,null))
 p.r.n(0,"Content-Type","multipart/form-data")
 k=j.gU(k).b
 j=A.awm(new A.jv(A.auK(i,t.Cm)))
@@ -28265,7 +28265,7 @@ return A.B($async$K_,r)},
 a24(a,b){var s=0,r=A.C(t.H),q=1,p,o,n,m,l,k,j,i,h,g
 var $async$a24=A.y(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:A.ba("Linking document")
-o="http://api.careinplace.net"+("/provider/"+b+"/linkFile")
+o="https://api.careinplace.net"+("/provider/"+b+"/linkFile")
 i=t.N
 n=A.aj(["Content-Type","application/json"],i,i)
 m=A.aj(["evidence_document_id",a],i,t.z)
@@ -28293,7 +28293,7 @@ case 1:return A.z(p,r)}})
 return A.B($async$a24,r)},
 a9_(a){var s=0,r=A.C(t.bo),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$a9_=A.y(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:k="http://api.careinplace.net/mentor/"
+s=p}while(true)switch(s){case 0:k="https://api.careinplace.net/mentor/"
 j=t.N
 i=A.aj(["ein",a.b,"firebase_id",a.e,"name",a.c,"email",a.d],j,t.z)
 h=A.aj(["Content-Type","application/json"],j,j)
@@ -28325,7 +28325,7 @@ case 2:return A.z(o,r)}})
 return A.B($async$a9_,r)},
 LU(a){var s=0,r=A.C(t.IY),q,p=2,o,n,m,l,k,j,i,h,g,f,e
 var $async$LU=A.y(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:h="http://api.careinplace.net"+("/mentor/fb/"+a)
+s=p}while(true)switch(s){case 0:h="https://api.careinplace.net"+("/mentor/fb/"+a)
 g=t.N
 f=A.aj(["Content-Type","application/json"],g,g)
 p=4
@@ -28360,7 +28360,7 @@ case 2:return A.z(o,r)}})
 return A.B($async$LU,r)},
 tM(b4){var s=0,r=A.C(t.ni),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
 var $async$tM=A.y(function(b5,b6){if(b5===1){o=b6
-s=p}while(true)switch(s){case 0:a8="http://api.careinplace.net"+("/mentor/"+b4+"/providers")
+s=p}while(true)switch(s){case 0:a8="https://api.careinplace.net"+("/mentor/"+b4+"/providers")
 a9=t.N
 b0=A.aj(["Content-Type","application/json"],a9,a9)
 p=4
@@ -28444,7 +28444,7 @@ case 2:return A.z(o,r)}})
 return A.B($async$tM,r)},
 a90(){var s=0,r=A.C(t.dU),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$a90=A.y(function(a,a0){if(a===1){o=a0
-s=p}while(true)switch(s){case 0:e="http://api.careinplace.net/service/"
+s=p}while(true)switch(s){case 0:e="https://api.careinplace.net/service/"
 d=t.N
 c=A.aj(["Content-Type","application/json"],d,d)
 p=4
@@ -28483,7 +28483,7 @@ case 2:return A.z(o,r)}})
 return A.B($async$a90,r)},
 abv(a,b){var s=0,r=A.C(t.y),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$abv=A.y(function(c,d){if(c===1){o=d
-s=p}while(true)switch(s){case 0:k="http://api.careinplace.net"+("/provider/"+a+"/state")
+s=p}while(true)switch(s){case 0:k="https://api.careinplace.net"+("/provider/"+a+"/state")
 j=t.N
 i=A.aj(["Content-Type","application/json"],j,j)
 h=A.aj(["state",b],j,t.z)
@@ -28519,7 +28519,7 @@ abu(a){return A.aMu(a)},
 aMu(a){var s=0,r=A.C(t.dU),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$abu=A.y(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
-n="http://api.careinplace.net"+("/provider/"+a+"/services")
+n="https://api.careinplace.net"+("/provider/"+a+"/services")
 e=t.N
 m=A.aj(["Content-Type","application/json"],e,e)
 s=7
@@ -28557,7 +28557,7 @@ return A.B($async$abu,r)},
 abr(a,b){return A.aMr(a,b)},
 aMr(a,b){var s=0,r=A.C(t.H),q=1,p,o,n,m,l,k,j,i
 var $async$abr=A.y(function(c,d){if(c===1){p=d
-s=q}while(true)switch(s){case 0:l="http://api.careinplace.net"+("/provider/"+a+"/services")
+s=q}while(true)switch(s){case 0:l="https://api.careinplace.net"+("/provider/"+a+"/services")
 k=t.N
 j=A.aj(["Content-Type","application/json"],k,k)
 q=3
@@ -28585,7 +28585,7 @@ abs(a,b){return A.aMs(a,b)},
 aMs(a,b){var s=0,r=A.C(t.H),q=1,p,o,n,m,l,k,j,i,h
 var $async$abs=A.y(function(c,d){if(c===1){p=d
 s=q}while(true)switch(s){case 0:q=3
-o="http://api.careinplace.net"+("/provider/"+a+"/services")
+o="https://api.careinplace.net"+("/provider/"+a+"/services")
 j=t.N
 n=A.aj(["Content-Type","application/json"],j,j)
 m=A.aj(["service_id",b],j,t.z)
@@ -28613,7 +28613,7 @@ abt(a){return A.aMt(a)},
 aMt(a){var s=0,r=A.C(t.ho),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$abt=A.y(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
-n="http://api.careinplace.net"+("/provider/"+a+"/training")
+n="https://api.careinplace.net"+("/provider/"+a+"/training")
 i=t.N
 m=A.aj(["Content-Type","application/json"],i,i)
 s=7
@@ -28645,7 +28645,7 @@ abw(a,b){return A.aMv(a,b)},
 aMv(a,b){var s=0,r=A.C(t.ho),q,p=2,o,n,m,l,k,j,i,h,g
 var $async$abw=A.y(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
-n="http://api.careinplace.net"+("/provider/"+a+"/training")
+n="https://api.careinplace.net"+("/provider/"+a+"/training")
 i=t.N
 m=A.aj(["Content-Type","application/json"],i,i)
 s=7

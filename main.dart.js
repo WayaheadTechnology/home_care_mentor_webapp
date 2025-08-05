@@ -29793,27 +29793,27 @@ case 1:return A.z(q,r)}})
 return A.A($async$aUL,r)},
 dc(a,b){switch(a){case"API_URL":return"http://23.21.149.155"
 case"SOCKET_URL":return"ws://23.21.149.155"
-case"FIREBASE_API_KEY":return"AIzaSyCRfi6mYW__K4d5lp38PMcCaJuub-1hTCA"
-case"FIREBASE_APP_ID":return"1:387303608618:web:0ad1c10871c7b9d2778e53"
-case"FIREBASE_MESSAGING_SENDER_ID":return"387303608618"
-case"FIREBASE_PROJECT_ID":return"ultimate-care-mentor-dev"
-case"FIREBASE_AUTH_DOMAIN":return"ultimate-care-mentor-dev.firebaseapp.com"
-case"FIREBASE_STORAGE_BUCKET":return"ultimate-care-mentor-dev.firebasestorage.app"
-case"FIREBASE_MEASUREMENT_ID":return"G-QRKDDZF7YZ"
+case"FIREBASE_API_KEY":return"AIzaSyCnbYKcLe77MjuIW2GmCAvcdfyhMApTFEQ"
+case"FIREBASE_APP_ID":return"1:90831206882:web:d8c17b573337660515e1bb"
+case"FIREBASE_MESSAGING_SENDER_ID":return"90831206882"
+case"FIREBASE_PROJECT_ID":return"ultimate-care-mentor-qa"
+case"FIREBASE_AUTH_DOMAIN":return"ultimate-care-mentor-qa.firebaseapp.com"
+case"FIREBASE_STORAGE_BUCKET":return"ultimate-care-mentor-qa.firebasestorage.app"
+case"FIREBASE_MEASUREMENT_ID":return"G-5XZ5H15HY1"
 case"FIREBASE_IOS_BUNDLE_ID":return""
 case"API_TIMEOUT":return"30"
 case"API_MAX_RETRIES":return"3"
 case"API_RETRY_DELAY":return"2"
-case"LOG_LEVEL":return"debug"
+case"LOG_LEVEL":return"info"
 case"ENABLE_API_LOGGING":return"true"
-case"ENABLE_ERROR_REPORTING":return"false"
+case"ENABLE_ERROR_REPORTING":return"true"
 case"APP_NAME":return"MentorOrganization"
-case"APP_ENV":return"dev"
+case"APP_ENV":return"qa"
 case"APP_VERSION":return"1.0.0"
 case"APP_BUILD_NUMBER":return"1"
 default:return b}},
 b_7(a){switch(a){case"ENABLE_API_LOGGING":return"true".toLowerCase()==="true"
-case"ENABLE_ERROR_REPORTING":return"false".toLowerCase()==="true"
+case"ENABLE_ERROR_REPORTING":return"true".toLowerCase()==="true"
 default:return!1}},
 aUK(a,b){var s
 switch(a){case"API_TIMEOUT":s=A.lT("30",null)
@@ -105609,7 +105609,7 @@ return A.A($async$vn,r)}}
 A.mS.prototype={
 K(){return"Environment."+this.b}}
 A.aiN.prototype={
-$1(a){return a.b==="dev"},
+$1(a){return a.b==="qa"},
 $S:742}
 A.aiO.prototype={
 $0(){return B.iq},
